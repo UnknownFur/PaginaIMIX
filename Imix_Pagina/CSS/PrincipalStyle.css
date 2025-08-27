@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+}
+.section1 {
+    margin-top: 40px;
+    background-image: url(../IMAGENES/Imagen_Prueba_02.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2 {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .left, .right {
+  flex: 0 0 35%;
+}
+.container2 .left img {
+    width: 100%;
+    object-fit: cover; /* no deforma */
+    transform: translateY(2px);
+    border-radius: 20px 0 0 20px;
+}
+.container2 .right {
+    background-color: rgb(172, 76, 143);
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    border-radius: 0 20px 20px 0;
+}
