@@ -1,5 +1,6 @@
 body{
     background-color: rgb(255, 255, 255);
+    width: 100%;
 }
 .section1 {
     background-color: #F2A25C;
@@ -51,6 +52,7 @@ body{
     align-items: center;
 }
 .content3{
+    overflow: hidden;
     width: 90%;
     margin: 50px 0px 50px 0px;
     display: flex;
