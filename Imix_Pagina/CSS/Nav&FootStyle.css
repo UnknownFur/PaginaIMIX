@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -6,41 +8,30 @@ body{
     background-color: rgb(240, 240, 240);
 }
 nav{
-    margin-top: 25px;
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
+    position: fixed;
+    z-index: 1;
 }
 ul{
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
     justify-content: center;
-    margin: 0;
+    margin-top: 50px;
     padding: 0;
 }
 ul li{
-    background-color: rgb(172, 76, 143);
-    padding: 5px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
     list-style: none;
     transition: all 0.3s ease-in-out;
 }
 ul li a{
-    font-family: "Josefin Sans", sans-serif;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 18px;
-}
-ul li:hover a{
-    color: rgb(201, 150, 196);
 }
 ul li:hover{
     cursor: pointer;
@@ -48,36 +39,21 @@ ul li:hover{
     transform: scale(1.1);
 }
 .deco{
-    display: flex;
-    background-color: rgb(179, 82, 166);
-    border-radius: 20px;
-    width: 80%;
-    height: 40px;
-    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+    background-image: url("../IMAGENES/Head_Menu.png");
+    background-size: auto 100%;
+    background-size: cover;
+}
+.nav-links{
+    justify-content: space-around;
 }
 .logo{
-    margin: 0px 10px 0px 10px;
-    display: flex;
-    align-items: center;
-}
-.logo h4{
-    font-family: "Josefin Sans", sans-serif;
-    color: white;
-}
-footer{
-    margin: 0;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(172, 76, 143);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    position: fixed;
-    border-radius: 20px 20px 0 0;
-}
-footer p{
-    font-family: "Josefin Sans", sans-serif;
-    color: white;
-    font-weight: bold;
+    margin-top: -15px;
+    background-image: url("../IMAGENES/Logo Imix.png");
+    background-size: contain;
+    width: 15vw;
+    height: 15vw;
+    border: 5px solid white;
+    border-radius: 100vw;
 }
