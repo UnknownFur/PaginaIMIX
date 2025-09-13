@@ -1,6 +1,8 @@
 body{
     background-color: rgb(255, 255, 255);
-    width: 100%;
+}
+html, body {
+    overflow-x: hidden;
 }
 .section1 {
     background-color: #F2A25C;
@@ -8,10 +10,12 @@ body{
     height: 100vh;
 }
 .slider {
+    width: 100%;
     overflow: hidden;
 }
 .slider figure {
     position: relative;
+    display: flex;
     width: 500%;
     margin: 0;
     left: 0;
@@ -52,9 +56,13 @@ body{
     align-items: center;
 }
 .content3{
-    overflow: hidden;
+    overflow: scroll;
     width: 90%;
     margin: 50px 0px 50px 0px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.content3::-webkit-scrollbar {
+  display: none;
 }
