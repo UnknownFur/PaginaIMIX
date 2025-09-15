@@ -37,6 +37,7 @@ ul li:hover{
     background-image: url("../IMAGENES/Head_Menu.png");
     background-size: auto 100%;
     background-size: cover;
+    background-position: center bottom;
     display: flex;
     justify-content: center;
 }
