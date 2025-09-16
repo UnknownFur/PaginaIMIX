@@ -6,7 +6,7 @@ nav{
     display: flex;
     flex-direction: row;
     position: fixed;
-    z-index: 1;
+    z-index: 9999;
 }
 ul{
     width: 90%;
