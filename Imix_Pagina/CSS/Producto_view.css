@@ -1,4 +1,6 @@
 .product-section {
+    width: 70%;
+    margin: 250px auto;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
