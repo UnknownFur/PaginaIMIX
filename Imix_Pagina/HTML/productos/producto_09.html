@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../IMAGENES/Logo Imix Circular.png" type="image/png">
+    <link rel="stylesheet" href="../../CSS/LoadBody.css">
+    <link rel="stylesheet" href="../../CSS/Fonts.css">
+    <link rel="stylesheet" href="../../CSS/Nav&FootStyle.css">
+    <link rel="stylesheet" href="../../CSS/Catalogo.css">
+    <link rel="stylesheet" href="../../CSS/Producto_view.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="../../JAVASCRIPT/BodyLoad.js"></script>
+    <title>Libreta</title>
+</head>
+<body>
+    <nav>
+        <div class="deco">
+            <ul class="nav-links">
+                <li><a href="../Catalogo.html">Catálogos</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="../Contactanos.html">Contáctanos</a></li>
+                <li><a href="../Siguenos.html">Síguenos</a></li>
+                <a href="../PaginaPrincipal.html"><div class="logo"></div></a>
+        </div>
+    </nav>
+    <section class="product-section">
+        <div class="product-container">
+            <div class="product-image">
+                <model-viewer 
+                    src="../../MODELOS/Botellita.glb"
+                    ar
+                    environment-image="https://modelviewer.dev/shared-assets/environments/moon_1k.hdr" 
+                    shadow-intensity="1"
+                    camera-orbit="-151.4deg 90.53deg 7.058m"
+                    field-of-view="30deg"
+                    camera-controls touch-action="pan-y"
+                    style="width: 400px; height: 400px; background-color: #eee;"
+                    autoplay                
+                ></model-viewer>
+
+            </div>
+            <div class="product-info">
+                <h2>Libreta</h2>
+                <div class="product-description">
+                    <p>Inspiración en cada página. Su diseño profesional invita a plasmar ideas, proyectos y sueños, convirtiéndose en un reflejo de creatividad y propósito.</p>
+                </div>
+                <div class="product-price">
+                    <span class="price">$16.000 COP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="info">
+            <div class="info-left">
+                <p>Mantente en contacto con nosotros</p>
+                <br>
+                <a href=""><img src="../../IMAGENES/whatsapp_logo.png" alt=""><p>+57 301 4912708</p></a>
+                <a href="https://www.instagram.com/imixcorporativos"><img src="../../IMAGENES/instagram_logo.png" alt=""><p>@imixcorporativos</p></a>
+                <a href=""><img src="../../IMAGENES/email_logo.png" alt=""><p>imixcupcakes@gmail.com</p></a>
+            </div>
+            <div class="info-right">
+                <p>Politicas</p>
+                <br>
+                <a href=""><p>Terminos y condiciones</p></a>
+                <a href=""><p>Politicas de privacidad</p></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
